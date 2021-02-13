@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
           final_array[name] = {}
         end
         if !final_array[key]
-          final_array[key] = {}
+          final_array[name][key] = {}
         end
       binding.pry
     end
